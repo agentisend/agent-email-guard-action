@@ -2,7 +2,7 @@ name: agent-email-guard check
 description: Warn when agent code sends email without a policy file or a guard import.
 branding:
   icon: shield
-  color: gray
+  color: gray-dark
 inputs:
   fail:
     description: Exit 1 when a finding exists. Default is a warning annotation.
